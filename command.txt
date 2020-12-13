@@ -1,0 +1,10 @@
+pyuic5 -x GUI.ui -o GUI.py
+
+https://www.truepeoplesearch.com/InternalCaptcha?returnUrl=%2fresultphone%3fphoneno%3d(514)560-5000
+
+# WIN10
+pyinstaller --noconfirm --onefile --windowed --icon "E:/Projects/Python/PhoneWitnessingTool2/telephone_icon.ico" --add-data "E:/Projects/Python/PhoneWitnessingTool2/telephone_icon.ico;." --add-data "E:/Projects/Python/PhoneWitnessingTool2/recaptcha.png;."  "E:/Projects/Python/PhoneWitnessingTool2/main.py"
+
+# MAC
+python setup.py py2app
+
